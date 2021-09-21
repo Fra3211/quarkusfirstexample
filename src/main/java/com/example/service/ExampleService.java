@@ -5,4 +5,6 @@ public interface ExampleService {
     String sayHello();
 
     String sayHelloWithName(String name);
+
+    Integer toInt();
 }

@@ -24,4 +24,11 @@ public class ExampleResource {
     public String helloWithName(@QueryParam("name") String name){
         return exampleService.sayHelloWithName(name);
     }
+
+    @GET
+    @Consumes(MediaType.TEXT_PLAIN)
+    @Path("/encode")
+    public Integer encoder(){
+        return exampleService.toInt();
+    }
 }

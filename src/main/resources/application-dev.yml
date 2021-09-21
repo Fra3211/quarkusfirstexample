@@ -1,2 +1,4 @@
 example:
   name: profilename
+exampleconverter:
+  encode: 11
