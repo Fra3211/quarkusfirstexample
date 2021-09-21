@@ -23,6 +23,13 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.20'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    //RESTEASY JSONB JACKSON
+    implementation "io.quarkus:quarkus-resteasy-jsonb"
+//    implementation "io.quarkus:quarkus-resteasy-jackson"
+
+    //HIBERNATE VALIDATOR
+    implementation "io.quarkus:quarkus-hibernate-validator"
 }
 
 group 'com.example'
