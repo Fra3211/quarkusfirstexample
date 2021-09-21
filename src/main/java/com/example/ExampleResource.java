@@ -19,6 +19,7 @@ public class ExampleResource {
     }
 
     @GET
+    @Path("/name")
     @Consumes(MediaType.TEXT_PLAIN)
     @Produces(MediaType.TEXT_PLAIN)
     public String helloWithName(@QueryParam("name") String name){
