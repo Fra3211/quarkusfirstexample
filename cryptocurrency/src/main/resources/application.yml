@@ -1,0 +1,10 @@
+crypto-api/mp-rest/url: https://api.coinlore.net/api/
+crypto-api/mp-rest/scope: javax.inject.Singleton
+
+
+#com:
+#  crypto:
+#    service:
+#      CurrencyService:
+#        /mp-rest/url: https://api.coinlore.net/api/
+#        /mp-rest/scope: javax.inject.Singleton
