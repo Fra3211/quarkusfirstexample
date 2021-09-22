@@ -19,6 +19,9 @@ dependencies {
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
 
+    //Multipart
+    implementation "io.quarkus:quarkus-resteasy-multipart"
+
     //Lombok
 
     compileOnly 'org.projectlombok:lombok:1.18.20'
